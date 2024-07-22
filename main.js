@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('header button').click(function() {
-    $('form').slideDown();
+    // $('form').slideDown();
+    $('form').slideToggle();
   });
 
   $('#botao-cancelar').click(function(){
